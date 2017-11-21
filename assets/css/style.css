@@ -1,0 +1,16 @@
+body {
+	background-color: #000;
+}
+
+#headerImage
+{
+	background-image: url(../images/telepod.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
