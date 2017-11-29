@@ -72,24 +72,6 @@ function winning(){
 	winsHtml.textContent = wins;
 
 	alert("You won... :)");
-	/*
-	lettersAlreadyGuessed = [];
-	var guessedLetters = document.getElementById('lettersGuessed');
-    guessedLetters.textContent = lettersAlreadyGuessed;  
-
-	numGuesses = 15;
-	var guessesLeft = document.getElementById('guessesRemaining');
-    guessesLeft.textContent = numGuesses;
-    
-	wordComputerChooses = wordChoices[Math.floor(Math.random() * wordChoices.length)];
-
-	underscores = [];
-	for(var i = 0; i < wordComputerChooses.length; i++){
-    	underscores.push("_");
-    };
-	var wordUnderscores = document.getElementById('word');
-    wordUnderscores.textContent = underscores;  
-    */
 };
 
 function losing(){
