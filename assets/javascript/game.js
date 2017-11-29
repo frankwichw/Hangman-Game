@@ -59,7 +59,6 @@ document.onkeyup = function(event) {
     };
     
     if (underscores.join('') == wordComputerChooses.join('') && numGuesses > 1){
-    	alert("You won... :)");
     	winning();
     } else if (numGuesses < 1){
     	alert("You lose! :(");
@@ -72,6 +71,8 @@ function winning(){
 	var winsHtml = document.getElementById('winNumber');
 	winsHtml.textContent = wins;
 
+	alert("You won... :)");
+	/*
 	lettersAlreadyGuessed = [];
 	var guessedLetters = document.getElementById('lettersGuessed');
     guessedLetters.textContent = lettersAlreadyGuessed;  
@@ -79,7 +80,7 @@ function winning(){
 	numGuesses = 15;
 	var guessesLeft = document.getElementById('guessesRemaining');
     guessesLeft.textContent = numGuesses;
-
+    
 	wordComputerChooses = wordChoices[Math.floor(Math.random() * wordChoices.length)];
 
 	underscores = [];
@@ -88,6 +89,7 @@ function winning(){
     };
 	var wordUnderscores = document.getElementById('word');
     wordUnderscores.textContent = underscores;  
+    */
 };
 
 function losing(){
