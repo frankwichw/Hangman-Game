@@ -4,7 +4,11 @@ var wordChoices = [
 	["c", "a", "n", "d", "y", "m", "a", "n"], 
 	["c", "a", "r", "p", "e", "n", "t", "e", "r"], 
 	["k", "r", "u", "e", "g", "e", "r"], 
-	["x", "e", "n", "o", "m", "o", "r", "p", "h"]
+	["x", "e", "n", "o", "m", "o", "r", "p", "h"],
+	["h", "e", "l", "l", "r", "a", "i", "s", "e", "r"],
+	["j", "i", "g", "s", "a", "w"],
+	["s", "c", "r", "e", "a", "m"],
+	["v", "o", "o", "r", "h", "e", "e", "s"]
 	];
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var lettersAlreadyGuessed = [];
