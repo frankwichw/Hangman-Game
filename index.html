@@ -31,19 +31,23 @@
 	</div>
 		<div class='col-md-6 col-sm-12 col-xs-12 col-lg-6' id='mainContent'>
 
-			<p>Press any key to play hangman!</p>
+			<div id='gameContainer'>
+			
+				<p>Press any key to play hangman!</p>
 
-			<p>Wins: <span id='winNumber'></span></p>
+				<p>Wins: <span id='winNumber'></span></p>
 
-			<h3 id='word'></h3>
+				<h3 id='word'></h3>
 
-			<p>Guesses Remaining: <span id='guessesRemaining'></span></p>
+				<p>Guesses Remaining: <span id='guessesRemaining'></span></p>
 
-			<p>Letters Already Guessed:</p>
+				<p>Letters Already Guessed:</p>
 
-			<p><span id='lettersGuessed'></span></p>
-			<button class='btn-warning btn' onclick='losing()'>New Word</button>
-			<button class='btn-danger btn' onclick='giveUp()'>Give Up</button>
+				<p><span id='lettersGuessed'></span></p>
+				<button class='btn-warning btn' onclick='losing()'>New Word</button>
+				<button class='btn-danger btn' onclick='giveUp()'>Give Up</button>
+
+			</div>
 		</div>
 </div>
 

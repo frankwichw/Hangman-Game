@@ -3,8 +3,7 @@ body {
 	color: #ccc;
 }
 
-#headerImage
-{
+#headerImage {
 	background-image: url(../images/itmom.PNG);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -37,4 +36,9 @@ h3 {
 	width: 411px;
 	margin: auto;
 	margin-top: 80px;
+}
+
+#gameContainer {
+	width: 199px;
+	margin: auto;
 }

@@ -18,6 +18,7 @@ var wordComputerChooses = wordChoices[Math.floor(Math.random() * wordChoices.len
 var underscores = [];
 for(var i = 0; i < wordComputerChooses.length; i++){
     	underscores.push("_");	
+
     };
 
 
@@ -26,7 +27,10 @@ document.onkeyup = function(event) {
 	/* basic set up */
 	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
-    underscores.join(" ");
+    /* 
+    underscores = underscores.join(' ');
+    worcComputerChooses = wordComputerChooses.join(' ');
+    */
 
     var userGuess = event.key;
 
@@ -62,7 +66,7 @@ document.onkeyup = function(event) {
     	};
     };
     
-    if (underscores.join('') == wordComputerChooses.join('') && numGuesses > 1){
+    if (underscores.join(' ') == wordComputerChooses.join(' ') && numGuesses > 1){
     	winning();
     } else if (numGuesses < 1){
     	alert("You lose! :(");
